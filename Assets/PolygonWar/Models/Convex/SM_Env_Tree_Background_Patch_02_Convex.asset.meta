@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 832e310ec2d4ca5438b685782fffedda
+timeCreated: 1590372015
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Env_Tree_Background_Patch_02_Convex.asset
+  uploadId: 735258

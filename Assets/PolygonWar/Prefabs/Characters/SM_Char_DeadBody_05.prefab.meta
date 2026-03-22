@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ec8921ace6414a24787cfd7e3154af28
+timeCreated: 1517257977
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Characters/SM_Char_DeadBody_05.prefab
+  uploadId: 735258

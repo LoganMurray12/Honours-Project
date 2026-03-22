@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1ea7e510cfd269249a3f2401102dd743
+timeCreated: 1517200516
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_City_Road_Damaged_01.prefab
+  uploadId: 735258

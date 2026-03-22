@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fd3c39cabed7fcd4ebd4d08125b8c870
+timeCreated: 1517200707
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Vehicles/SM_Veh_Russian_Tank_02.prefab
+  uploadId: 735258

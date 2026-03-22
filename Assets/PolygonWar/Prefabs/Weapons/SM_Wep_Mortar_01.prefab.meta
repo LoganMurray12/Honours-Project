@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0e3286651f9702049b0d333e7520e134
+timeCreated: 1513204358
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Weapons/SM_Wep_Mortar_01.prefab
+  uploadId: 735258

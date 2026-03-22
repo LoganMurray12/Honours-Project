@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2431f1bbf01797e45b0dcb4d11f77187
+timeCreated: 1517372605
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Characters/SM_Char_DeadBody_Gib_Leg_01.prefab
+  uploadId: 735258

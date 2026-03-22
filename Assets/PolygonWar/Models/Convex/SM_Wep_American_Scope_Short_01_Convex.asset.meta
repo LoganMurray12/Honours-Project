@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9c41a0a82424f5949820b7eaa1c67064
+timeCreated: 1590375102
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Wep_American_Scope_Short_01_Convex.asset
+  uploadId: 735258

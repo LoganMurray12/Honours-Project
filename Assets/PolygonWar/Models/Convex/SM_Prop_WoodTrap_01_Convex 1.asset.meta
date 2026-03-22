@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 23189e4283e08ec499637628e3d3f66e
+timeCreated: 1590371713
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Prop_WoodTrap_01_Convex 1.asset
+  uploadId: 735258

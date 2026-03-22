@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b5bfaa96684015648892a6a95474e3a6
+timeCreated: 1590375729
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Bld_State_Building_Roof_01_Convex
+    1.asset
+  uploadId: 735258

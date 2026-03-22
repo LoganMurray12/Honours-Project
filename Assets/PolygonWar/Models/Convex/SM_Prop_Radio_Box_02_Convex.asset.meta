@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3531c6c42a1041a4bb50c5458e3737f4
+timeCreated: 1590370797
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Prop_Radio_Box_02_Convex.asset
+  uploadId: 735258

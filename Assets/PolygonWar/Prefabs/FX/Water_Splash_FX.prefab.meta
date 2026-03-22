@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ad7b3c9953cf6344ca1e08b987fb7067
+timeCreated: 1517364938
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/FX/Water_Splash_FX.prefab
+  uploadId: 735258

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e5024d51b5459d64691ef22ff32a29a3
+timeCreated: 1517272269
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Flag_Pole_Russian.prefab
+  uploadId: 735258

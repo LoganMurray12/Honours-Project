@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fe2415b22caa05048962a2a177b4c75b
+timeCreated: 1590370799
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Env_Flag_Pole_England_Convex.asset
+  uploadId: 735258

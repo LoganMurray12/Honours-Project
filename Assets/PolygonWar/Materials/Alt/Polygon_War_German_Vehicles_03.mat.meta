@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4441002da06b47248b1fb4bc14af7bcd
+timeCreated: 1513563840
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Materials/Alt/Polygon_War_German_Vehicles_03.mat
+  uploadId: 735258

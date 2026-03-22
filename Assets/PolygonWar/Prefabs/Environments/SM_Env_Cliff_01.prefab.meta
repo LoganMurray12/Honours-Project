@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fbf7f84db94874a48a7c63bbc4a805ee
+timeCreated: 1516142037
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_Cliff_01.prefab
+  uploadId: 735258

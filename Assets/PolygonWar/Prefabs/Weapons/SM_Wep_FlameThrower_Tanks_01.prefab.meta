@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7ed6599af2607f3459b74df5c32aa0ea
+timeCreated: 1517443776
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Weapons/SM_Wep_FlameThrower_Tanks_01.prefab
+  uploadId: 735258

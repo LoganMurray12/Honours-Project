@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1298d8c19b1f8bf4e9a6a17ec979d9f0
+timeCreated: 1545011952
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Characters/FixedScaleCharacters/Character_American_Soldier_01.prefab
+  uploadId: 735258

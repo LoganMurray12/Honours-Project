@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 57bd524f4b6c3ae489a86b59ed4c06c7
+timeCreated: 1512604490
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_Road_Dirt_T_Section_01.prefab
+  uploadId: 735258

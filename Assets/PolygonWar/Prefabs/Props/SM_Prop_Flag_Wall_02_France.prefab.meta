@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5809236787bb4184593fa521bc2599b5
+timeCreated: 1517278535
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Flag_Wall_02_France.prefab
+  uploadId: 735258

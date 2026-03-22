@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b5015534e763e08459137234f278df27
+timeCreated: 1512602365
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Shallow_Intersection_02.prefab
+  uploadId: 735258

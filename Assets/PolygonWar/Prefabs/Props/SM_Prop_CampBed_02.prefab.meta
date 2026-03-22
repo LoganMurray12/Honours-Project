@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 36f845d886479d444ba5e73ed5bdb93d
+timeCreated: 1513295220
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_CampBed_02.prefab
+  uploadId: 735258

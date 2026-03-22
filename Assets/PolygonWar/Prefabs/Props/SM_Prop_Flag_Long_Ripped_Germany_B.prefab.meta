@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 610523c3231b7374eb96c60a9c39e381
+timeCreated: 1517278533
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Flag_Long_Ripped_Germany_B.prefab
+  uploadId: 735258

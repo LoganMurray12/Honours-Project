@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f8a40e15874ae034aa0e994fb8fc0acc
+timeCreated: 1512602360
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Crate_03.prefab
+  uploadId: 735258

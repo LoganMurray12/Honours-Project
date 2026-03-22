@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a25052b2d355f0041b988aab3ed006ce
+timeCreated: 1517270159
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Destroyed_02.prefab
+  uploadId: 735258

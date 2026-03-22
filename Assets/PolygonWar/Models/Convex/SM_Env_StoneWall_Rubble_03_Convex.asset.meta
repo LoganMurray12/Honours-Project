@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 195c57fd504cdcb4492641553bc67091
+timeCreated: 1590371941
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Env_StoneWall_Rubble_03_Convex.asset
+  uploadId: 735258

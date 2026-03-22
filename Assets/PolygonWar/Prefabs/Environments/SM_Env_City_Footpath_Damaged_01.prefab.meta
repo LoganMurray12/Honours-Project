@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a0011f64b42d3aa4e982909cf4479aad
+timeCreated: 1517200516
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_City_Footpath_Damaged_01.prefab
+  uploadId: 735258

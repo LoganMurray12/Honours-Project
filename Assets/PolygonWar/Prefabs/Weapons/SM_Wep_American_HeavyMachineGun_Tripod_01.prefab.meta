@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dda42d8e21d877c4dbd42bbd8ba6f1d3
+timeCreated: 1513134018
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Weapons/SM_Wep_American_HeavyMachineGun_Tripod_01.prefab
+  uploadId: 735258

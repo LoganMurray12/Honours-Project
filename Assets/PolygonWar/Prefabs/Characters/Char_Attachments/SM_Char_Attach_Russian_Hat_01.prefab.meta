@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ee51d41b045b7d44897335e5bbd5028a
+timeCreated: 1517192201
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Characters/Char_Attachments/SM_Char_Attach_Russian_Hat_01.prefab
+  uploadId: 735258

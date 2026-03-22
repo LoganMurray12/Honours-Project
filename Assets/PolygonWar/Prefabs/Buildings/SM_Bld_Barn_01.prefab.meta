@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: da2fd4315d0abc44799b3fa3981c630f
+timeCreated: 1512602365
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Barn_01.prefab
+  uploadId: 735258

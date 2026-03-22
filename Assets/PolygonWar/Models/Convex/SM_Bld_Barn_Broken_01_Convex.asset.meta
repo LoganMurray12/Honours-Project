@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 37f9259dbf627b74c98d90a87a5bcc67
+timeCreated: 1590375276
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Bld_Barn_Broken_01_Convex.asset
+  uploadId: 735258

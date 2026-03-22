@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cb8c91b6379ff4c4e9b7ac95aca931b8
+timeCreated: 1517192195
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Characters/Char_Attachments/SM_Char_Attach_American_Pouch_Front_02.prefab
+  uploadId: 735258

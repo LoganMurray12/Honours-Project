@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6d5bc0464b19d0045a9b2c897e137300
+timeCreated: 1517272273
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Flag_Straight_Germany_01.prefab
+  uploadId: 735258

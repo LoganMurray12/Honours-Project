@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 482a8f4c3f0316f48b998f5c6765115c
+timeCreated: 1517273910
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Vehicles/SM_Veh_German_Tank_03.prefab
+  uploadId: 735258

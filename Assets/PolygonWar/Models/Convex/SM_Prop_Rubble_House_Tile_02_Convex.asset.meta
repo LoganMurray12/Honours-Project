@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b34e74fd1a3afe246b34d20a356638f7
+timeCreated: 1590370837
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Prop_Rubble_House_Tile_02_Convex.asset
+  uploadId: 735258

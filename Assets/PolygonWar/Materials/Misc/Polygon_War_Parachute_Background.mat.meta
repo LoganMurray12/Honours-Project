@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 33a6eb58de934f4438e26a59b117a525
+timeCreated: 1517365551
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Materials/Misc/Polygon_War_Parachute_Background.mat
+  uploadId: 735258

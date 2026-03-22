@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 805555657d301274d8760c0894e0cce2
+timeCreated: 1590372863
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Veh_American_Tank_01_Convex.asset
+  uploadId: 735258

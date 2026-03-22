@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8fa6a3e1e9bfb254a9a1a573acb9611b
+timeCreated: 1590370828
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Prop_Wire_01_Convex.asset
+  uploadId: 735258

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 40356f3eeba81e94fbac4bc8759d382b
+timeCreated: 1512602358
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Chimney_01.prefab
+  uploadId: 735258

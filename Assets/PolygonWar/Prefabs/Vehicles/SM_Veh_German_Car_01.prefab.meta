@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 77cf29bacc1617a4ba6a94e2abdb548f
+timeCreated: 1513048806
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Vehicles/SM_Veh_German_Car_01.prefab
+  uploadId: 735258

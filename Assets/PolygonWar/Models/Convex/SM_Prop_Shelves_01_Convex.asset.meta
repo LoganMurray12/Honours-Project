@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 65a117fec00d86849b3bb847a1191875
+timeCreated: 1590370856
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Prop_Shelves_01_Convex.asset
+  uploadId: 735258

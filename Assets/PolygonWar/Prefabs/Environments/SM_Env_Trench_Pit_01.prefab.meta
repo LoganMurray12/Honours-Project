@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f2b4867805b597240a65f8ea5a82c95f
+timeCreated: 1512693433
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Pit_01.prefab
+  uploadId: 735258

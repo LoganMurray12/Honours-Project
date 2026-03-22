@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e82481a1921607f49a01b923ca756db1
+timeCreated: 1513111591
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_Sandbag_Pile_01.prefab
+  uploadId: 735258

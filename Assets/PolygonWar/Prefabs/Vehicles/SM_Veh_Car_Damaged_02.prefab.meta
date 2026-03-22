@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d3f973bce60457843929cbb03e1d1753
+timeCreated: 1517262307
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Vehicles/SM_Veh_Car_Damaged_02.prefab
+  uploadId: 735258

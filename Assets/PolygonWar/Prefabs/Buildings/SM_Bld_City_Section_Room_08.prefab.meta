@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1c60f86b5ce789f4196f963807910c93
+timeCreated: 1516758259
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Room_08.prefab
+  uploadId: 735258

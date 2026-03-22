@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0af6ef53df4b52e41869432a2763cd7d
+timeCreated: 1590374621
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Veh_Russian_Tank_01_Convex 2.asset
+  uploadId: 735258

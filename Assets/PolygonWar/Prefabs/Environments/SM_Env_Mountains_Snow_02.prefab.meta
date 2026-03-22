@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 920898e67c1973043ad74a9a620932d2
+timeCreated: 1513560261
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_Mountains_Snow_02.prefab
+  uploadId: 735258

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9944f7fb5d42f82408f0dd243fbbc2cc
+timeCreated: 1516758102
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Door_03.prefab
+  uploadId: 735258

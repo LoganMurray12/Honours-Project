@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d0e23d8277943a342b73e28f6c3fcd71
+timeCreated: 1517963785
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Characters/Char_Attachments/SM_Char_Attach_German_Officer_Hat_02.prefab
+  uploadId: 735258

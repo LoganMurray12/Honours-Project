@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0a34fddaf49f4f0478f2a439e72c9fa9
+timeCreated: 1512945089
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Rubble_House_Plank_01.prefab
+  uploadId: 735258

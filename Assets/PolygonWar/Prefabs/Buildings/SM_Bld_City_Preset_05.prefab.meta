@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e7dba4ca14803604da3d8c9f7eb3e7f1
+timeCreated: 1516752390
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Preset_05.prefab
+  uploadId: 735258

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 42575d3d9624e004e9d1441420cb7e4a
+timeCreated: 1517273714
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Sign_10.prefab
+  uploadId: 735258

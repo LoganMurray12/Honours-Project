@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c3014fe71253e124ebf4d87b99a2790b
+timeCreated: 1512602367
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_Crater_02.prefab
+  uploadId: 735258

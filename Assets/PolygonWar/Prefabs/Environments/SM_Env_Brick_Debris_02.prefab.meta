@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cd7e74ac067aad64d80716a3a8ea5d30
+timeCreated: 1517274822
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_Brick_Debris_02.prefab
+  uploadId: 735258

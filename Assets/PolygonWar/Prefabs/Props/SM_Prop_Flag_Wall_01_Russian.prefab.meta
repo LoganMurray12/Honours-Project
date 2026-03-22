@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3bb5122635f7d5049b1dc2c91eca01f3
+timeCreated: 1517272281
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Flag_Wall_01_Russian.prefab
+  uploadId: 735258

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: aa4340c359464c240b251ce18b8b6abe
+timeCreated: 1517288120
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_Bridge_Middle.prefab
+  uploadId: 735258

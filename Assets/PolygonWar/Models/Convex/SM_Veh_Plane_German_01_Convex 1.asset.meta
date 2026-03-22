@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 656b5f16f12a3be4d99752b1f54be8f4
+timeCreated: 1590374966
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Veh_Plane_German_01_Convex 1.asset
+  uploadId: 735258

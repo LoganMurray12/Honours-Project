@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2cc7eb6cadbd4d749a86b38e29118af9
+timeCreated: 1517363244
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Statue_America.prefab
+  uploadId: 735258

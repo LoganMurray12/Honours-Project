@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6a43a2e7dafb59c4c8fa9e89ea3ee2be
+timeCreated: 1513563840
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Materials/Vehicles/Polygon_War_German_Dive_Bomber.mat
+  uploadId: 735258

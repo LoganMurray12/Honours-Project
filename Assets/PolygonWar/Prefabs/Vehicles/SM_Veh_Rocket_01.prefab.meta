@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4cc0552afade00443bc17badbe1cb53d
+timeCreated: 1517370105
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Vehicles/SM_Veh_Rocket_01.prefab
+  uploadId: 735258

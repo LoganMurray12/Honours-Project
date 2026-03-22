@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d988e2611bd69434bab4a6de77c6457d
+timeCreated: 1512602361
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_StoneWall_Single_02.prefab
+  uploadId: 735258

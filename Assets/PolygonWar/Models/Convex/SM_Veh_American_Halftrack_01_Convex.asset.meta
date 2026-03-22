@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 602373674d891a74495170baf51d4e1f
+timeCreated: 1590372850
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Veh_American_Halftrack_01_Convex.asset
+  uploadId: 735258

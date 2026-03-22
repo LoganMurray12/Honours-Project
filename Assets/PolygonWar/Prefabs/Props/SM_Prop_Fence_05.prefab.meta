@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3dc824d1624fd6045810b97956915827
+timeCreated: 1512602366
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Fence_05.prefab
+  uploadId: 735258

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4f838afff78084143afd8914046799fd
+timeCreated: 1545012021
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Characters/FixedScaleCharacters/Character_Russian_Soldier_01.prefab
+  uploadId: 735258

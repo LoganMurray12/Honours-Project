@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 859b6086b797a9d48ba89b289a7b509e
+timeCreated: 1512602364
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_Runway_01.prefab
+  uploadId: 735258

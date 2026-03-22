@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 43661ff2635bdc947b87d5d0f816367e
+timeCreated: 1502231164
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Materials/Misc/Polygon_War_Emission.mat
+  uploadId: 735258

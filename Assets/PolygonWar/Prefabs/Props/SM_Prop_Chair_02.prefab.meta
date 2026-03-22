@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3ceba4364946ebd49bf12c0f73d3ddca
+timeCreated: 1516923865
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Chair_02.prefab
+  uploadId: 735258

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 85cac5ffc0f5c9b4880b831d1ce8cea5
+timeCreated: 1517272286
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Props/SM_Prop_Flag_Wall_02_Germany_B.prefab
+  uploadId: 735258

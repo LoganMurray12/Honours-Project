@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f38868cc5cf5b2446a463fff9ba32418
+timeCreated: 1517276584
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_City_Road_Rubble_01.prefab
+  uploadId: 735258

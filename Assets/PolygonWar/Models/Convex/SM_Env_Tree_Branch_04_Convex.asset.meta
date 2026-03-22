@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: db920ef8dbae8d147bc4ee65ccfc318f
+timeCreated: 1590372011
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Env_Tree_Branch_04_Convex.asset
+  uploadId: 735258

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 58ef87ea52b034e40aa7d3bf8ca1dd57
+timeCreated: 1517524651
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Characters/Character_German_Soldier_Attachments_02.prefab
+  uploadId: 735258

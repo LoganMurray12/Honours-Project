@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 26ae338024d6f1649af0cc6619f73429
+timeCreated: 1545011957
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Characters/FixedScaleCharacters/Character_AmericanOfficer_Female_01.prefab
+  uploadId: 735258

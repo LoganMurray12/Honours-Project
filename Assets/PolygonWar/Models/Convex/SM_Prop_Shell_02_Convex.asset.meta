@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 27f0a0df1a43ec047acc00918b25347d
+timeCreated: 1590370848
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Prop_Shell_02_Convex.asset
+  uploadId: 735258

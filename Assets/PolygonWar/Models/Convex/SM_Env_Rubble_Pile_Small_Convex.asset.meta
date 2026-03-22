@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0795d87be7bbf434c99b4d6ea09d97ee
+timeCreated: 1590371873
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Env_Rubble_Pile_Small_Convex.asset
+  uploadId: 735258

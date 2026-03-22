@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f0bec34351374194fac2d2b9dadb784f
+timeCreated: 1513222612
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Guard_Booth_01.prefab
+  uploadId: 735258

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5ab0951dad04a8a41a8972aa4537b9e6
+timeCreated: 1590372014
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Models/Convex/SM_Env_Tree_Shards_03_Convex.asset
+  uploadId: 735258

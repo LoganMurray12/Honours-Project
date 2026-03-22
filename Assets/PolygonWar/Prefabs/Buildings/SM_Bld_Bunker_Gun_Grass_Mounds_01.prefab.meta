@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1dcc5c606e5fa1f4487dda003e8b09bd
+timeCreated: 1516153658
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Bunker_Gun_Grass_Mounds_01.prefab
+  uploadId: 735258

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a1f656c69d2080948aa8bcd6456962b9
+timeCreated: 1496879112
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106992
+  packageName: POLYGON War - Low Poly 3D Art by Synty
+  packageVersion: 1.10.0
+  assetPath: Assets/PolygonWar/Prefabs/Environments/SM_Env_Ocean_Tile_01.prefab
+  uploadId: 735258
