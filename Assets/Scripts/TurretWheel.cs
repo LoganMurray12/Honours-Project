@@ -4,20 +4,17 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class WheelHandleTurner : MonoBehaviour
 {
-    [Header("Grab Handle")]
     public XRGrabInteractable grabHandle;
-
-    [Header("Wheel Settings")]
     public float sensitivity = 1f;
-    public float minAngle = -180f;
-    public float maxAngle = 180f;
+    public float minAngle = -90f;
+    public float maxAngle = 90f;
 
     private bool isGrabbed = false;
     private Transform interactorTransform;
     private float previousHandAngle;
     private float currentWheelAngle;
 
-    private void OnEnable()
+    void OnEnable()
     {
         if (grabHandle != null)
         {
@@ -26,7 +23,7 @@ public class WheelHandleTurner : MonoBehaviour
         }
     }
 
-    private void OnDisable()
+    void OnDisable()
     {
         if (grabHandle != null)
         {
@@ -35,13 +32,14 @@ public class WheelHandleTurner : MonoBehaviour
         }
     }
 
-    private void Update()
+    void Update()
     {
         if (!isGrabbed || interactorTransform == null)
             return;
 
         Vector3 localHandPos = transform.InverseTransformPoint(interactorTransform.position);
 
+        // For Y-axis wheel rotation
         float currentHandAngle = Mathf.Atan2(localHandPos.z, localHandPos.x) * Mathf.Rad2Deg;
         float deltaAngle = Mathf.DeltaAngle(previousHandAngle, currentHandAngle);
 
@@ -53,7 +51,7 @@ public class WheelHandleTurner : MonoBehaviour
         transform.localRotation = Quaternion.Euler(0f, currentWheelAngle, 0f);
     }
 
-    private void OnGrabbed(SelectEnterEventArgs args)
+    void OnGrabbed(SelectEnterEventArgs args)
     {
         isGrabbed = true;
         interactorTransform = args.interactorObject.transform;
@@ -62,7 +60,7 @@ public class WheelHandleTurner : MonoBehaviour
         previousHandAngle = Mathf.Atan2(localHandPos.z, localHandPos.x) * Mathf.Rad2Deg;
     }
 
-    private void OnReleased(SelectExitEventArgs args)
+    void OnReleased(SelectExitEventArgs args)
     {
         isGrabbed = false;
         interactorTransform = null;
