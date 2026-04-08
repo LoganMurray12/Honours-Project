@@ -2515,7 +2515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acbeb6f5890941746aed177a96c6f8ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Label
-  labelID: Track
+  labelID: Track_Left
 --- !u!114 &475906072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4140,13 +4140,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675735445}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7078168, z: -0, w: -0.70639616}
-  m_LocalPosition: {x: -0.028843522, y: -0.227, z: 1.0035721}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0.028843522, y: -0.22700003, z: 1.0035721}
   m_LocalScale: {x: 0.55828714, y: 0.2237432, z: 0.38268778}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 677261279}
-  m_LocalEulerAnglesHint: {x: 0, y: 269.885, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &675735447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4386,8 +4386,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703125531}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.69823664, z: -0, w: 0.715867}
-  m_LocalPosition: {x: 0.893, y: -1.052, z: 0.792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.89300007, y: -1.052, z: 0.7919995}
   m_LocalScale: {x: 0.5089708, y: 0.07659405, z: 0.037652154}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5741,8 +5741,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057050133}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.69823664, z: -0, w: 0.71586704}
-  m_LocalPosition: {x: -0.871, y: -0.952, z: 0.91}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8709991, y: -0.952, z: 0.9099996}
   m_LocalScale: {x: 0.508971, y: 0.07659405, z: 0.037652154}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8412,7 +8412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acbeb6f5890941746aed177a96c6f8ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Label
-  labelID: Track
+  labelID: Track_Right
 --- !u!114 &1637449542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9125,13 +9125,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885220157}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.49372607, y: 0.49372607, z: 0.5061962, w: 0.5061962}
-  m_LocalPosition: {x: 0.0026308806, y: 0, z: 0.000065264234}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 0.003, y: 0.101, z: 0.268}
   m_LocalScale: {x: 0.25809783, y: 0.13771091, z: 0.1377109}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 677261279}
-  m_LocalEulerAnglesHint: {x: 0, y: 88.571, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 180}
 --- !u!114 &1885220159
 MonoBehaviour:
   m_ObjectHideFlags: 0

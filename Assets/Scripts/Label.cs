@@ -1,6 +1,5 @@
 using UnityEngine;
 
-
 [RequireComponent(typeof(UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable))]
 [RequireComponent(typeof(Rigidbody))]
 public class Label : MonoBehaviour
@@ -23,13 +22,14 @@ public class Label : MonoBehaviour
         grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
         rb = GetComponent<Rigidbody>();
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (isPlaced) return;
 
         LabelSnapTarget target = other.GetComponent<LabelSnapTarget>();
 
-        if(target != null &&
+        if (target != null &&
             !target.occupied &&
             target.correctLabelID == labelID)
         {
@@ -45,13 +45,23 @@ public class Label : MonoBehaviour
         target.occupied = true;
         isPlaced = true;
 
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
         rb.isKinematic = true;
+        rb.constraints = RigidbodyConstraints.FreezeAll;
+
         grabInteractable.enabled = false;
+
+        Collider[] colliders = GetComponentsInChildren<Collider>();
+        foreach (Collider col in colliders)
+        {
+            col.enabled = false;
+        }
     }
 
     public void ResetLabel()
     {
-        if(isPlaced) return;
+        if (isPlaced) return;
 
         transform.position = startPosition;
         transform.rotation = startRotation;
