@@ -11,6 +11,9 @@ public class Label : MonoBehaviour
     public AudioClip correctClip;
     public AudioClip wrongClip;
 
+    [Header("Task Manager")]
+    public LabelTaskManager taskManager;
+
     private Vector3 startPosition;
     private Quaternion startRotation;
 
@@ -32,7 +35,7 @@ public class Label : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Label colliding with target and checking ID
+        // Handles colliding and checking ID
         if (isPlaced) return;
 
         LabelSnapTarget target = other.GetComponent<LabelSnapTarget>();
@@ -52,12 +55,12 @@ public class Label : MonoBehaviour
 
     private void SnapToTarget(LabelSnapTarget target)
     {
-        // Play correct sound
+        // correct audio
         if (audioSource != null && correctClip != null)
         {
             audioSource.PlayOneShot(correctClip);
         }
-        // Handles snapping to the target object
+        // Snapping
         transform.position = target.transform.position;
         transform.rotation = target.transform.rotation;
 
@@ -76,11 +79,16 @@ public class Label : MonoBehaviour
         {
             col.enabled = false;
         }
+
+        if (taskManager != null)
+        {
+            taskManager.LabelPlaced();
+        }
     }
 
     private void WrongPlacement()
     {
-        // Play wrong sound
+        // wrong audio
         if (audioSource != null && wrongClip != null)
         {
             audioSource.PlayOneShot(wrongClip);
