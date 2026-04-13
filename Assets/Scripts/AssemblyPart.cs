@@ -3,16 +3,17 @@ using UnityEngine;
 [RequireComponent(typeof(UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable))]
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(AudioSource))]
-public class Label : MonoBehaviour
+public class AssemblyPart : MonoBehaviour
 {
-    public string labelID;
+    public string partID;
 
     [Header("Audio")]
     public AudioClip correctClip;
     public AudioClip wrongClip;
 
-    [Header("Task Manager")]
-    public LabelTaskManager taskManager;
+    [Header("Assembly")]
+    public AssemblyTaskManager taskManager;
+    public GameObject partLabel;
 
     private Vector3 startPosition;
     private Quaternion startRotation;
@@ -31,17 +32,22 @@ public class Label : MonoBehaviour
         grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
         rb = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
+
+        if (partLabel != null)
+        {
+            partLabel.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (isPlaced) return;
 
-        LabelSnapTarget target = other.GetComponent<LabelSnapTarget>();
+        AssemblySnapTarget target = other.GetComponent<AssemblySnapTarget>();
 
         if (target != null)
         {
-            if (!target.occupied && target.correctLabelID == labelID)
+            if (!target.occupied && target.correctPartID == partID)
             {
                 SnapToTarget(target);
             }
@@ -52,7 +58,7 @@ public class Label : MonoBehaviour
         }
     }
 
-    private void SnapToTarget(LabelSnapTarget target)
+    private void SnapToTarget(AssemblySnapTarget target)
     {
         if (audioSource != null && correctClip != null)
         {
@@ -78,9 +84,14 @@ public class Label : MonoBehaviour
             col.enabled = false;
         }
 
+        if (partLabel != null)
+        {
+            partLabel.SetActive(true);
+        }
+
         if (taskManager != null)
         {
-            taskManager.LabelPlaced();
+            taskManager.PartPlaced();
         }
     }
 
@@ -97,10 +108,10 @@ public class Label : MonoBehaviour
     private System.Collections.IEnumerator ResetAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        ResetLabel();
+        ResetPart();
     }
 
-    public void ResetLabel()
+    public void ResetPart()
     {
         transform.position = startPosition;
         transform.rotation = startRotation;

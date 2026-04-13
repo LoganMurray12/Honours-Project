@@ -2674,22 +2674,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311203302}
   m_CullTransparentMesh: 1
---- !u!114 &336109897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1743975877280698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acbeb6f5890941746aed177a96c6f8ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Label
-  labelID: Turret
-  correctClip: {fileID: 8300000, guid: 526556f902abcf742ae5879da79cc4cb, type: 3}
-  wrongClip: {fileID: 8300000, guid: ce99042819ea5714b865b3dbe6bcc044, type: 3}
-  taskManager: {fileID: 8920397}
 --- !u!114 &336109898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12602,6 +12586,7 @@ GameObject:
   - component: {fileID: 1637449541}
   - component: {fileID: 33727704000572449}
   - component: {fileID: 33727704000572451}
+  - component: {fileID: 33727704000572452}
   m_Layer: 0
   m_Name: SM_Veh_American_Tank_01_Track_r
   m_TagString: Untagged
@@ -12806,6 +12791,7 @@ GameObject:
   - component: {fileID: 1637449538}
   - component: {fileID: 33615251554648607}
   - component: {fileID: 33615251554648609}
+  - component: {fileID: 33615251554648610}
   m_Layer: 0
   m_Name: SM_Veh_American_Tank_01_Barrel
   m_TagString: Untagged
@@ -12900,8 +12886,8 @@ GameObject:
   - component: {fileID: 64910275263640290}
   - component: {fileID: 336109899}
   - component: {fileID: 336109898}
-  - component: {fileID: 336109897}
   - component: {fileID: 64910275263640292}
+  - component: {fileID: 64910275263640293}
   m_Layer: 0
   m_Name: SM_Veh_American_Tank_01_Turret
   m_TagString: Untagged
@@ -12979,6 +12965,7 @@ GameObject:
   - component: {fileID: 475906071}
   - component: {fileID: 33907030609662879}
   - component: {fileID: 33907030609662881}
+  - component: {fileID: 33907030609662882}
   m_Layer: 0
   m_Name: SM_Veh_American_Tank_01_Track_l
   m_TagString: Untagged
@@ -15200,6 +15187,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &33615251554648610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617499964426256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0e907beef39f74fbd036aac37aa2dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AssemblyPart
+  partID: 
+  correctClip: {fileID: 0}
+  wrongClip: {fileID: 0}
+  taskManager: {fileID: 0}
+  partLabel: {fileID: 0}
 --- !u!33 &33692209411915398
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15342,6 +15346,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &33727704000572452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119642284385166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0e907beef39f74fbd036aac37aa2dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AssemblyPart
+  partID: 
+  correctClip: {fileID: 0}
+  wrongClip: {fileID: 0}
+  taskManager: {fileID: 0}
+  partLabel: {fileID: 0}
 --- !u!33 &33759578529609418
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15521,6 +15542,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &33907030609662882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794355351992300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0e907beef39f74fbd036aac37aa2dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AssemblyPart
+  partID: 
+  correctClip: {fileID: 0}
+  wrongClip: {fileID: 0}
+  taskManager: {fileID: 0}
+  partLabel: {fileID: 0}
 --- !u!33 &33912996110839418
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15686,6 +15724,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &64910275263640293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743975877280698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0e907beef39f74fbd036aac37aa2dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AssemblyPart
+  partID: Turret
+  correctClip: {fileID: 8300000, guid: 526556f902abcf742ae5879da79cc4cb, type: 3}
+  wrongClip: {fileID: 8300000, guid: ce99042819ea5714b865b3dbe6bcc044, type: 3}
+  taskManager: {fileID: 0}
+  partLabel: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

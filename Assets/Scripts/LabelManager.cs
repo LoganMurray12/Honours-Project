@@ -3,9 +3,12 @@ using UnityEngine;
 public class LabelTaskManager : MonoBehaviour
 {
     public int totalLabels = 4;
+    
     public GameObject winMessageObject;
+    
 
     private int placedLabels = 0;
+    
 
     void Start()
     {
@@ -25,6 +28,8 @@ public class LabelTaskManager : MonoBehaviour
         }
     }
 
+    
+
     private void ShowWinMessage()
     {
         if (winMessageObject != null)
@@ -32,4 +37,6 @@ public class LabelTaskManager : MonoBehaviour
             winMessageObject.SetActive(true);
         }
     }
+
+   
 }
