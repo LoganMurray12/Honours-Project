@@ -2,6 +2,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable))]
 [RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(AudioSource))]
 public class Label : MonoBehaviour
 {
     public string labelID;
@@ -11,6 +12,7 @@ public class Label : MonoBehaviour
 
     private UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable;
     private Rigidbody rb;
+    private AudioSource audioSource;
 
     private bool isPlaced = false;
 
@@ -21,6 +23,7 @@ public class Label : MonoBehaviour
 
         grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
         rb = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -29,11 +32,16 @@ public class Label : MonoBehaviour
 
         LabelSnapTarget target = other.GetComponent<LabelSnapTarget>();
 
-        if (target != null &&
-            !target.occupied &&
-            target.correctLabelID == labelID)
+        if (target != null)
         {
-            SnapToTarget(target);
+            if (!target.occupied && target.correctLabelID == labelID)
+            {
+                SnapToTarget(target);
+            }
+            else
+            {
+                WrongPlacement();
+            }
         }
     }
 
@@ -59,10 +67,20 @@ public class Label : MonoBehaviour
         }
     }
 
+    private void WrongPlacement()
+    {
+        // Play error sound
+        if (audioSource != null)
+        {
+            audioSource.Play();
+        }
+
+        // Reset position
+        ResetLabel();
+    }
+
     public void ResetLabel()
     {
-        if (isPlaced) return;
-
         transform.position = startPosition;
         transform.rotation = startRotation;
 
