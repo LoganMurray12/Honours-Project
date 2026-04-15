@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8920398}
-  - component: {fileID: 8920397}
+  - component: {fileID: 8920399}
   m_Layer: 0
   m_Name: AssemblyManager
   m_TagString: Untagged
@@ -136,20 +136,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8920397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8920396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d042d73f63b930147bed55e36ca75ec5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LabelTaskManager
-  totalLabels: 4
-  winMessageObject: {fileID: 1938804343}
 --- !u!4 &8920398
 Transform:
   m_ObjectHideFlags: 0
@@ -165,6 +151,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8920399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8920396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3763197be36bc3439d538c961d12e85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AssemblyTaskManager
+  totalParts: 4
+  winMessageObject: {fileID: 1092398166}
 --- !u!1 &16924788
 GameObject:
   m_ObjectHideFlags: 0
@@ -3786,22 +3786,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 441592696}
   m_CullTransparentMesh: 1
---- !u!114 &475906071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794355351992300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acbeb6f5890941746aed177a96c6f8ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Label
-  labelID: Track_Left
-  correctClip: {fileID: 8300000, guid: 526556f902abcf742ae5879da79cc4cb, type: 3}
-  wrongClip: {fileID: 8300000, guid: ce99042819ea5714b865b3dbe6bcc044, type: 3}
-  taskManager: {fileID: 8920397}
 --- !u!114 &475906072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5660,7 +5644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 675735446}
   - component: {fileID: 675735448}
-  - component: {fileID: 675735447}
+  - component: {fileID: 675735449}
   m_Layer: 0
   m_Name: Target_Turret
   m_TagString: Untagged
@@ -5683,20 +5667,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 677261279}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &675735447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675735445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2d32e89d983f20458ec47364d73012c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LabelSnapTarget
-  correctLabelID: Turret
-  occupied: 0
 --- !u!135 &675735448
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5718,6 +5688,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &675735449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675735445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6a973fbc6af21a4b9259beec1ee06a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapTarget
+  correctPartID: Turret
+  occupied: 0
 --- !u!1 &677261278
 GameObject:
   m_ObjectHideFlags: 0
@@ -5906,7 +5890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 703125532}
   - component: {fileID: 703125534}
-  - component: {fileID: 703125533}
+  - component: {fileID: 703125535}
   m_Layer: 0
   m_Name: Target_Track_Left
   m_TagString: Untagged
@@ -5929,20 +5913,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 677261279}
   m_LocalEulerAnglesHint: {x: 0, y: 5.066, z: 0}
---- !u!114 &703125533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703125531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2d32e89d983f20458ec47364d73012c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LabelSnapTarget
-  correctLabelID: Track_Left
-  occupied: 0
 --- !u!135 &703125534
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5964,6 +5934,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &703125535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703125531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6a973fbc6af21a4b9259beec1ee06a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapTarget
+  correctPartID: Track_Left
+  occupied: 0
 --- !u!1 &704559637
 GameObject:
   m_ObjectHideFlags: 0
@@ -7154,7 +7138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1057050134}
   - component: {fileID: 1057050136}
-  - component: {fileID: 1057050135}
+  - component: {fileID: 1057050137}
   m_Layer: 0
   m_Name: Target_Track_Right
   m_TagString: Untagged
@@ -7177,20 +7161,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 677261279}
   m_LocalEulerAnglesHint: {x: 0, y: 2.996, z: 0}
---- !u!114 &1057050135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1057050133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2d32e89d983f20458ec47364d73012c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LabelSnapTarget
-  correctLabelID: Track_Right
-  occupied: 0
 --- !u!135 &1057050136
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7212,6 +7182,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1057050137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057050133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6a973fbc6af21a4b9259beec1ee06a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapTarget
+  correctPartID: Track_Right
+  occupied: 0
 --- !u!1 &1069392672
 GameObject:
   m_ObjectHideFlags: 0
@@ -10398,22 +10382,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1637449538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617499964426256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acbeb6f5890941746aed177a96c6f8ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Label
-  labelID: Barrel
-  correctClip: {fileID: 8300000, guid: 526556f902abcf742ae5879da79cc4cb, type: 3}
-  wrongClip: {fileID: 8300000, guid: ce99042819ea5714b865b3dbe6bcc044, type: 3}
-  taskManager: {fileID: 8920397}
 --- !u!114 &1637449539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10570,22 +10538,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1637449541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119642284385166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acbeb6f5890941746aed177a96c6f8ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Label
-  labelID: Track_Right
-  correctClip: {fileID: 8300000, guid: 526556f902abcf742ae5879da79cc4cb, type: 3}
-  wrongClip: {fileID: 8300000, guid: ce99042819ea5714b865b3dbe6bcc044, type: 3}
-  taskManager: {fileID: 8920397}
 --- !u!114 &1637449542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11431,7 +11383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885220158}
   - component: {fileID: 1885220160}
-  - component: {fileID: 1885220159}
+  - component: {fileID: 1885220161}
   m_Layer: 0
   m_Name: Target_Barrel
   m_TagString: Untagged
@@ -11454,20 +11406,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 677261279}
   m_LocalEulerAnglesHint: {x: -18.333, y: 180, z: 180}
---- !u!114 &1885220159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885220157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2d32e89d983f20458ec47364d73012c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LabelSnapTarget
-  correctLabelID: Barrel
-  occupied: 0
 --- !u!135 &1885220160
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11489,6 +11427,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1885220161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885220157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6a973fbc6af21a4b9259beec1ee06a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AssemblySnapTarget
+  correctPartID: Barrel
+  occupied: 0
 --- !u!1 &1901753635
 GameObject:
   m_ObjectHideFlags: 0
@@ -12583,7 +12535,6 @@ GameObject:
   - component: {fileID: 23955049143364786}
   - component: {fileID: 1637449543}
   - component: {fileID: 1637449542}
-  - component: {fileID: 1637449541}
   - component: {fileID: 33727704000572449}
   - component: {fileID: 33727704000572451}
   - component: {fileID: 33727704000572452}
@@ -12788,7 +12739,6 @@ GameObject:
   - component: {fileID: 23763363253792038}
   - component: {fileID: 1637449540}
   - component: {fileID: 1637449539}
-  - component: {fileID: 1637449538}
   - component: {fileID: 33615251554648607}
   - component: {fileID: 33615251554648609}
   - component: {fileID: 33615251554648610}
@@ -12962,7 +12912,6 @@ GameObject:
   - component: {fileID: 23237289976464426}
   - component: {fileID: 475906073}
   - component: {fileID: 475906072}
-  - component: {fileID: 475906071}
   - component: {fileID: 33907030609662879}
   - component: {fileID: 33907030609662881}
   - component: {fileID: 33907030609662882}
@@ -15196,13 +15145,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1617499964426256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d0e907beef39f74fbd036aac37aa2dd, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c8ca2a92fa29dc45a11d628201804ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblyPart
-  partID: 
-  correctClip: {fileID: 0}
-  wrongClip: {fileID: 0}
-  taskManager: {fileID: 0}
+  partID: Barrel
+  correctClip: {fileID: 8300000, guid: 526556f902abcf742ae5879da79cc4cb, type: 3}
+  wrongClip: {fileID: 8300000, guid: ce99042819ea5714b865b3dbe6bcc044, type: 3}
+  taskManager: {fileID: 8920399}
   partLabel: {fileID: 0}
 --- !u!33 &33692209411915398
 MeshFilter:
@@ -15355,13 +15304,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1119642284385166}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d0e907beef39f74fbd036aac37aa2dd, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c8ca2a92fa29dc45a11d628201804ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblyPart
-  partID: 
-  correctClip: {fileID: 0}
-  wrongClip: {fileID: 0}
-  taskManager: {fileID: 0}
+  partID: Track_Right
+  correctClip: {fileID: 8300000, guid: 526556f902abcf742ae5879da79cc4cb, type: 3}
+  wrongClip: {fileID: 8300000, guid: ce99042819ea5714b865b3dbe6bcc044, type: 3}
+  taskManager: {fileID: 8920399}
   partLabel: {fileID: 0}
 --- !u!33 &33759578529609418
 MeshFilter:
@@ -15551,13 +15500,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1794355351992300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d0e907beef39f74fbd036aac37aa2dd, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c8ca2a92fa29dc45a11d628201804ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblyPart
-  partID: 
-  correctClip: {fileID: 0}
-  wrongClip: {fileID: 0}
-  taskManager: {fileID: 0}
+  partID: Track_Left
+  correctClip: {fileID: 8300000, guid: 526556f902abcf742ae5879da79cc4cb, type: 3}
+  wrongClip: {fileID: 8300000, guid: ce99042819ea5714b865b3dbe6bcc044, type: 3}
+  taskManager: {fileID: 8920399}
   partLabel: {fileID: 0}
 --- !u!33 &33912996110839418
 MeshFilter:
@@ -15733,13 +15682,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1743975877280698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d0e907beef39f74fbd036aac37aa2dd, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c8ca2a92fa29dc45a11d628201804ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssemblyPart
   partID: Turret
   correctClip: {fileID: 8300000, guid: 526556f902abcf742ae5879da79cc4cb, type: 3}
   wrongClip: {fileID: 8300000, guid: ce99042819ea5714b865b3dbe6bcc044, type: 3}
-  taskManager: {fileID: 0}
+  taskManager: {fileID: 8920399}
   partLabel: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
